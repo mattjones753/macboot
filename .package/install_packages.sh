@@ -1,7 +1,7 @@
 #!/bin/bash
 
 brew update
-brew bundle
+brew bundle --file=${HOME}/.package/Brewfile
 
 eval "$(rbenv init -)"
 rbenv install 2.3.1

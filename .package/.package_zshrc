@@ -1,5 +1,5 @@
 eval "$(rbenv init - zsh)"
-$(direnv hook zsh)
+eval "$(direnv hook bash)"
 NVM_DIR=~/.nvm
 source $(brew --prefix nvm)/nvm.sh
 

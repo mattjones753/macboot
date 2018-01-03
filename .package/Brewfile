@@ -1,28 +1,40 @@
+# Cask
 cask_args appdir: "/Applications"
-
 tap "caskroom/cask"
 
-brew "openssl"
-
-cask "google-chrome"
-
+# Programming
 cask "caskroom/versions/java8"
 brew "gradle"
+brew "leiningen"
 brew "node"
 brew "nvm"
-
-cask "atom"
-cask "docker"
-cask "intellij-idea"
-cask "slack"
-cask "dropbox"
-
 brew "rbenv"
 brew "ruby-build"
-brew "git-crypt"
-brew "gnupg"
-brew "direnv"
-cask "tunnelblick"
-cask "keepassxc"
-cask "iterm2"
 
+# Git
+brew "git"
+brew "git-crypt"
+brew "git-plus"
+
+# CLI
+cask "iterm2"
+brew "direnv"
+brew "gnupg"
+brew "jq"
+brew "openssl"
+
+#AWS
+brew "awscli"
+cask "aws-vault"
+
+# Apps
+cask "atom"
+cask "docker"
+cask "dropbox"
+cask "google-chrome"
+cask "intellij-idea"
+cask "keepassxc"
+cask "postman"
+cask "slack"
+cask "tunnelblick"
+cask "zoomus"

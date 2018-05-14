@@ -23,6 +23,7 @@ brew "direnv"
 brew "gnupg"
 brew "jq"
 brew "openssl"
+brew "coreutils"
 
 #AWS
 brew "awscli"

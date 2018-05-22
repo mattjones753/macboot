@@ -11,6 +11,8 @@ brew "nvm"
 brew "rbenv"
 brew "ruby-build"
 brew "go"
+brew "dep"
+brew "yarn"
 
 # Git
 brew "git"
@@ -24,6 +26,16 @@ brew "gnupg"
 brew "jq"
 brew "openssl"
 brew "coreutils"
+cask "keybase"
+brew "the_silver_searcher"
+
+#Database
+brew "postgresql"
+brew "flyway"
+cask "psequel"
+
+#Infra
+brew "terraform"
 
 #AWS
 brew "awscli"
@@ -31,6 +43,7 @@ cask "aws-vault"
 
 # Apps
 cask "atom"
+cask "authy"
 cask "docker"
 cask "dropbox"
 cask "google-chrome"
@@ -40,3 +53,4 @@ cask "postman"
 cask "slack"
 cask "tunnelblick"
 cask "zoomus"
+cask "spectacle"

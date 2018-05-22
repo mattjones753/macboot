@@ -14,4 +14,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 source ~/.package/.package_zshrc
 source ~/.package/config/programming/setup_golang.sh
+if [[ -a ~/.temp_aliases.sh ]]; then
+  source ~/.temp_aliases.sh
+fi
 

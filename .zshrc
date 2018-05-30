@@ -5,10 +5,16 @@ ZSH_CUSTOM=$HOME/.zsh-custom
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
 plugins=(
-  git
+  gitfast
+  encode64
+  common-aliases
+  aws
   osx
   nvm
   docker
+  npm
+  history
+  yarn
 )
 
 source $ZSH/oh-my-zsh.sh

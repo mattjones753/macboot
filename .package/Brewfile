@@ -28,6 +28,7 @@ brew "openssl"
 brew "coreutils"
 cask "keybase"
 brew "the_silver_searcher"
+brew "wget"
 
 #Database
 brew "postgresql"
@@ -36,6 +37,7 @@ cask "psequel"
 
 #Infra
 brew "terraform"
+brew "vault"
 
 #AWS
 brew "awscli"

@@ -1,10 +1,8 @@
 # Cask
 cask_args appdir: "/Applications"
-tap "caskroom/cask"
+tap "homebrew/cask-cask"
 
 # Programming
-cask "caskroom/versions/java8"
-brew "gradle"
 brew "leiningen"
 brew "node"
 brew "nvm"
@@ -32,7 +30,6 @@ brew "wget"
 
 #Database
 brew "postgresql"
-brew "flyway"
 cask "psequel"
 
 #Infra

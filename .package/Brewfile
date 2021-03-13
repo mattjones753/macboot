@@ -1,6 +1,6 @@
 # Cask
 cask_args appdir: "/Applications"
-tap "homebrew/cask-cask"
+tap "homebrew/homebrew-cask"
 
 # Programming
 brew "leiningen"
@@ -45,11 +45,7 @@ cask "atom"
 cask "authy"
 cask "docker"
 cask "dropbox"
-cask "google-chrome"
 cask "intellij-idea"
 cask "keepassxc"
 cask "postman"
-cask "slack"
-cask "tunnelblick"
-cask "zoomus"
 cask "spectacle"

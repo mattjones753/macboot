@@ -9,7 +9,6 @@ brew "nvm"
 brew "rbenv"
 brew "ruby-build"
 brew "go"
-brew "dep"
 brew "yarn"
 
 # Git
@@ -24,13 +23,11 @@ brew "gnupg"
 brew "jq"
 brew "openssl"
 brew "coreutils"
-cask "keybase"
 brew "the_silver_searcher"
 brew "wget"
 
 #Database
 brew "postgresql"
-cask "psequel"
 
 #Infra
 brew "terraform"

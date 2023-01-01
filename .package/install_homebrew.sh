@@ -5,8 +5,7 @@ if ! command -v gcc >/dev/null; then
 fi
 
 if ! command -v brew >/dev/null; then
-    curl -fsS \
-      'https://raw.githubusercontent.com/Homebrew/install/master/install' | ruby
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 

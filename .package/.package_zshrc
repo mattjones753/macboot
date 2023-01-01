@@ -1,3 +1,4 @@
+eval "$(/opt/homebrew/bin/brew shellenv)"
 eval "$(rbenv init - ${SHELL})"
 eval "$(direnv hook ${SHELL})"
 NVM_DIR=~/.nvm

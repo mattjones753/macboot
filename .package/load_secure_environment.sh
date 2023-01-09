@@ -2,7 +2,7 @@
 
 export SECURE_ENVIRONMENT_KEYCHAIN_NAME=secure_env.keychain
 security show-keychain-info $SECURE_ENVIRONMENT_KEYCHAIN_NAME &> /dev/null
-if $? > 0
+if (( $? ))
 then
   echo "Setting up keychain"
   echo -n "keychain password:"

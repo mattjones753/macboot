@@ -1,11 +1,9 @@
 #! /bin/zsh
 
 export SECURE_ENVIRONMENT_KEYCHAIN_NAME=secure_env.keychain
-
-if security show-keychain-info $SECURE_ENVIRONMENT_KEYCHAIN_NAME &> /dev/null
+security show-keychain-info $SECURE_ENVIRONMENT_KEYCHAIN_NAME &> /dev/null
+if $? > 0
 then
-  break
-else
   echo "Setting up keychain"
   echo -n "keychain password:"
   read -s keychain_password
